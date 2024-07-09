@@ -1,0 +1,471 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, ol, blockquote {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.border-box {
+  box-sizing: border-box;
+}
+
+.navi-element {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  text-align: left;
+}
+.style-sircle {
+  list-style-type: circle;
+  letter-spacing: 0.04em;
+  margin-left: 31px;
+}
+
+.navigation {
+  color: #000000;
+}
+
+.header-box {
+  width: 1052px;
+  height: 105px;
+  display: flex;
+  margin: 92px 24px 96px;
+}
+
+.navi-block {
+  width: 391.48px;
+  height: 22px;
+  display: flex;
+  box-sizing: border-box;
+  margin: 44px 34px 39px 26.52px;
+}
+
+.navi-list {
+  display: flex;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+
+.underline {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.font-navi {
+  font-family: Ralevay, sans-serif;
+  font-weight: normal;
+  padding-top: 1px;
+  font-size: 18px;
+  text-align: left;
+}
+
+
+.header-logo {
+  width: 148px;
+  height: 105px;
+  box-sizing: border-box;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  text-align: left;
+  margin-top: 6px;
+  margin-left: 186px;
+}
+
+.letter-spacing-contacts {
+  letter-spacing: 0.01em;
+}
+
+.contact-underline {
+  text-decoration: underline 1px;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+
+.cover-box {
+  z-index: 0;
+  display: flex;
+  position: relative;
+  width: 1100px;
+  height: 757px;
+  background-image: url(/images/cover.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.semi-black-scrin {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.content-box {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 167px  50px 0px 50px;
+  gap: 20px;
+}
+
+.content {
+  position: absolute;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0.3em;
+  text-align: left;
+  z-index: 2;
+  color: #fff;
+}
+
+.letter-60-text-left {
+  line-height: 115px;
+  letter-spacing: 0.6em;
+  text-align: left;
+}
+
+.text-left {
+  top: 165px
+}
+
+.text-middle {
+  top: 300px;
+  left: 336px;
+}
+
+.letter-60-text-middle {
+  letter-spacing: 0.6em;
+
+}
+
+.text-right {
+  letter-spacing: 0.6em;
+  text-align: right;
+  left: 633px;
+  top: 420px;
+}
+
+.letter-30-text-right {
+  letter-spacing: 0.3em;
+}
+
+.main-text-block {
+  position: absolute;
+  width: 637px;
+  height: 28px;
+  z-index: 2;
+  color: #fff;
+  padding: 667px 385px 52px 78px;
+}
+
+.main-text {
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  white-space: nowrap;
+  text-transform: uppercase;
+  word-spacing: 0.75em;
+  letter-spacing: 0.01em;
+}
+
+.main-text-letter-spacing {
+  letter-spacing: 0.018em;
+}
+
+.bet-button {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #fff;
+  z-index: 2;
+  width: 256px;
+  height: 51px;
+  margin-left: 716px;
+  margin-top: -40px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.bet-text {
+  display: block;
+  font-family: Raleway, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 25.83px;
+  bottom: 1px;
+  margin: auto;
+}
+
+.lots-box {
+  width: 1052px;
+  height: 692px;
+  box-sizing: border-box;
+  margin: 179px 24px 0px 24px;
+}
+
+.lots-text {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.96px;
+  text-align: left;
+  margin: 0px 891px 27px 40px;
+}
+
+.lots-cards {
+  display: flex;
+  gap: 25px;
+  width: 1052px;
+  height: 563px;
+}
+
+.lots-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 334px;
+  height: 563px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.img1 {
+  background-image: url(/images/card-lot-01.jpg);
+}
+
+.img2 {
+  background-image: url(/images/card-lot-02.jpg);
+}
+
+.img3 {
+  background-image: url(/images/card-lot-03.jpg);
+}
+
+.semi-black-scrin-card {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.card-font-name {
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: left;
+  color: #fff;
+  z-index: 2;
+  margin: 51px 40px 0px
+}
+
+.card-font-description {
+  position: absolute;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+  z-index: 2;
+  bottom: 0;
+  margin: 0px 40px 48px;
+}
+
+.ellipsis-leter-spacing {
+  letter-spacing: 0.13em;
+}
+
+.one-of-letter-spacing {
+  letter-spacing: -0.01em;
+}
+
+.link-more-lots {
+  display: inline-block;
+  margin: 30px 0px 0px 40px;
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.48px;
+  text-align: left;
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
+
+.section-about {
+  display: flex;
+  width: 1052px;
+  height: 595px;
+  margin: 146px 24px 0;
+}
+
+.about-logo {
+  width: 240px;
+  height: 240px;
+  margin: 35px 0px 0px 47px;
+  border-radius: 50%;
+  background-color: #000000;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-logo-img {
+  display: flex;
+  width: 148px;
+  height: 114px;
+  margin: auto;
+  margin-top: 64px;
+}
+
+.info {
+  box-sizing: border-box;
+  width: 693px;
+  height: 465px;
+  margin: 133px 0px 0px 72px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-heading {
+  display: block;
+  width: 291px;
+  height: 47px;
+  margin-top: 3px;
+  padding-bottom: 99px;
+  
+}
+
+.h-heading {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.96px;
+  text-align: left;
+}
+
+.paragraph-typography {
+  font-family: Raleway, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.info-first-paragraph {
+  margin-bottom: 24px;
+  letter-spacing: 0.005em;
+}
+
+.paragraph-typography-letter-spacing-1 {
+  letter-spacing: 0.009em;
+}
+
+.paragraph-typography-letter-spacing-2 {
+  letter-spacing: 0.01em;
+}
+
+.first-paragraph-typography-letter-spacing-1 {
+  letter-spacing: -0.02em;
+}
+
+.first-paragraph-typography-letter-spacing-2 {
+  letter-spacing: -0.001em;
+}
+
+.second-paragraph-typography-letter-spacing-1 {
+  letter-spacing: 0.005em;
+}
+
+.second-paragraph-typography-letter-spacing-2 {
+  letter-spacing: 0.02em;
+}
+
+.second-paragraph-typography-letter-spacing-3 {
+  letter-spacing: -0.01em;
+}
+
+
+
+.footer {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 98px;
+  margin: 180px 50px 88px;
+}
+
+.contacts-list-footer {
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
+  text-align: left;
+}
+
+.navi-footer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 149px;
+  height: 64px;
+  box-sizing: border-box;
+  margin: 1px 0px 0px 426px;
+}
+
+.footer-link {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.13px;
+  text-wrap: nowrap;
+  margin: auto;
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+}
+.social-media-block {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  height: 48px;
+  gap: 48px;
+}
+
+.social-media-img {
+  width: 48px;
+  height: 48px;
+}
